@@ -1,0 +1,22 @@
+{
+  "name": "link-react",
+  "version": "1.0.0",
+  "description": "Generalized link for react",
+  "main": "link.jsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkloop/link-react.git"
+  },
+  "keywords": [
+    "link",
+    "href",
+    "react",
+    "component"
+  ],
+  "author": "Baz <baz@thinkloop.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thinkloop/link-react/issues"
+  },
+  "homepage": "https://github.com/thinkloop/link-react#readme",
+}
