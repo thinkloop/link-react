@@ -20,6 +20,7 @@ React itself is a peer dependency and not included, it is the responsibility of 
 ### Use
 
 ```
+import React from 'react';
 import Link from 'link-react';
 
 export default (p) => (
