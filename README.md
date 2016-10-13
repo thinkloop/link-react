@@ -5,7 +5,7 @@ A generalized link `<a>` component that allows client-side navigation, while ign
 - shift-clicking
 - alt-clicking
 - ctrl-clicking
-- non-left click
+- non-left clicking
 - `target` attribute
 - `mailto` href
 
