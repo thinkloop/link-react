@@ -1,6 +1,6 @@
 # react-link
 
-A generalized link (`<a>`) component that allows client-side navigation, while ignoring:
+A generalized link `<a>` component that allows client-side navigation, while ignoring:
 
 - shift-clicking
 - alt-clicking
