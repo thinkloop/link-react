@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/thinkloop/link-react/issues"
   },
-  "homepage": "https://github.com/thinkloop/link-react#readme"
+  "homepage": "https://github.com/thinkloop/link-react#readme",
+  "peerDependencies": {
+    "react": "^15.3.2"
+  }
 }

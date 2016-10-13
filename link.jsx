@@ -1,3 +1,5 @@
+var React = require('react');
+
 module.exports = React.createClass({
 	propTypes: {
 		className: React.PropTypes.string,
@@ -28,13 +30,10 @@ module.exports = React.createClass({
 	},
 
 	render: function() {
-		return (
-			<a
-				{...this.props}
-				href={this.props.href}
-				className={`link ${this.props.className}`}
-				onClick={this.handleClick}
-			/>
-		);
+		return React.createElement('a', Object.assign({}, this.props, {
+			href: this.props.href,
+			className: 'link ' + this.props.className,
+			onClick: this.handleClick
+		}));
 	}
 });
