@@ -29,11 +29,6 @@ const SiteHeader = (p) => (
 	</nav>
 );
 
-SiteHeader.propTypes = {
-	homeLink: React.PropTypes.object,
-	aboutLink: React.PropTypes.object
-};
-
 export default SiteHeader;
 
 ```
