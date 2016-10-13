@@ -22,14 +22,12 @@ React itself is a peer dependency and not included, it is the responsibility of 
 ```
 import Link from 'link-react';
 
-const SiteHeader = (p) => (
+export default (p) => (
 	<nav>
 		<Link href={ p.homeLink.href } onClick={ p.homeLink.onClick }>{ p.homeLink.label }</Link>
 		<Link href={ p.aboutLink.href } onClick={ p.aboutLink.onClick }>{ p.aboutLink.label }</Link>
 	</nav>
 );
-
-export default SiteHeader;
 
 ```
 
