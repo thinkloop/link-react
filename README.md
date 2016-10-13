@@ -1,4 +1,4 @@
-# REACT-LINK
+# LINK-REACT
 
 A generalized link `<a>` component that allows client-side navigation, while ignoring:
 
