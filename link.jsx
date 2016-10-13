@@ -1,19 +1,12 @@
-import React, { Component, PropTypes } from 'react';
+module.exports = React.createClass({
+	propTypes: {
+		className: React.PropTypes.string,
+		href: React.PropTypes.string,
+		target: React.PropTypes.string,
+		onClick: React.PropTypes.func
+	},
 
-export default class Link extends Component {
-	static propTypes = {
-		className: PropTypes.string,
-		href: PropTypes.string,
-		target: PropTypes.string,
-		onClick: PropTypes.func
-	};
-
-	constructor(props) {
-		super(props);
-		this.handleClick = this.handleClick.bind(this);
-	}
-
-	handleClick = (e) => {
+	handleClick: function(e) {
 
 		// if target is set (e.g. to "_blank"), let the browser handle it
 		if (this.props.target || (this.props.href && this.props.href.indexOf('mailto:') === 0)) {
@@ -32,9 +25,9 @@ export default class Link extends Component {
 		if (this.props.onClick) {
 			this.props.onClick(this.props.href);
 		}
-	}
+	},
 
-	render() {
+	render: function() {
 		return (
 			<a
 				{...this.props}
@@ -44,4 +37,4 @@ export default class Link extends Component {
 			/>
 		);
 	}
-}
+});
