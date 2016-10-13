@@ -9,7 +9,7 @@ A generalized link `<a>` component that allows client-side navigation, while ign
 - `target` attribute
 - `mailto` href
 
-### Install
+## Install
 
 ```
 npm install link-react --save
@@ -17,7 +17,7 @@ npm install link-react --save
 
 React itself is a peer dependency and not included, it is the responsibility of the implementing app to provide a reference to `React`.
 
-### Use
+## Use
 
 ```
 import React from 'react';
@@ -32,12 +32,12 @@ export default (p) => (
 
 ```
 
-### License
+## License
 
 Released under an MIT license.
 
-### Other
+## Other
 - [memoizerific](https://github.com/thinkloop/memoizerific/)
 - [todo-app](https://github.com/thinkloop/todo-app/)
 
-### Like it? Star It
+## Like it? Star It
