@@ -36,9 +36,8 @@ export default (p) => (
 
 Released under an MIT license.
 
-### Related
-- [todo-app](https://github.com/thinkloop/todo-app)
-- [todo-react-components](https://github.com/thinkloop/todo-react-components)
-- [todo-redux-state](https://github.com/thinkloop/todo-redux-state)
+### Other
+- [memoizerific](https://github.com/thinkloop/memoizerific/)
+- [todo-app](https://github.com/thinkloop/todo-app/)
 
 ### Like it? Star It
