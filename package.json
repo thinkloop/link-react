@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/thinkloop/link-react#readme",
   "peerDependencies": {
-    "react": "^15.3.2"
+    "react": "14.x.x"
   }
 }
