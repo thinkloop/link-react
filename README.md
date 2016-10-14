@@ -36,8 +36,11 @@ export default (p) => (
 
 Released under an MIT license.
 
+## Related
+- [spa-webserver](https://github.com/thinkloop/spa-webserver/): Webserver that redirects to root index.html if path is missing for client-side SPA navigation
+
 ## Other
-- [memoizerific](https://github.com/thinkloop/memoizerific/)
-- [todo-app](https://github.com/thinkloop/todo-app/)
+- [todo-app](https://github.com/thinkloop/todo-app/): Example todo app of extreme decoupling of react, redux and selectors
+- [memoizerific](https://github.com/thinkloop/memoizerific/): Fast, small, efficient JavaScript memoization to memoize JS functions
 
 ## Like it? Star It
