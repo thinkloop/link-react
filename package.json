@@ -2,10 +2,15 @@
   "name": "link-react",
   "version": "1.0.0",
   "description": "A generalized link <a> component that allows client-side navigation while taking into account exceptions.",
-  "main": "link.jsx",
+  "license": "MIT",
+  "author": "Baz <baz@thinkloop.com>",
+  "homepage": "https://github.com/thinkloop/link-react#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thinkloop/link-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thinkloop/link-react/issues"
   },
   "keywords": [
     "link",
@@ -16,12 +21,11 @@
     "component",
     "react"
   ],
-  "author": "Baz <baz@thinkloop.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/thinkloop/link-react/issues"
+
+  "main": "link.jsx",
+  "scripts": {
+    "publish_to_npm": "clear; echo \"* * * *  PUBLISH  * * * *\"; NODE_ENV=development npm version patch && git push --follow-tags && npm publish"
   },
-  "homepage": "https://github.com/thinkloop/link-react#readme",
   "peerDependencies": {
     "react": ">=15"
   }
