@@ -1,6 +1,6 @@
 {
   "name": "link-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A generalized link <a> component that allows client-side navigation while taking into account exceptions.",
   "license": "MIT",
   "author": "Baz <baz@thinkloop.com>",
@@ -21,7 +21,6 @@
     "component",
     "react"
   ],
-
   "main": "link.jsx",
   "scripts": {
     "publish_to_npm": "clear; echo \"* * * *  PUBLISH  * * * *\"; NODE_ENV=development npm version patch && git push --follow-tags && npm publish"
