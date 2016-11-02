@@ -30,7 +30,7 @@ module.exports = React.createClass({
 	render: function() {
 		return React.createElement('a', Object.assign({}, this.props, {
 			href: this.props.href,
-			className: 'link ' + this.props.className,
+			className: this.props.className ? 'link ' + this.props.className : 'link',
 			onClick: this.handleClick
 		}));
 	}
