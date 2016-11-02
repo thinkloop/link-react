@@ -1,6 +1,6 @@
 {
   "name": "link-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A generalized link <a> component that allows client-side navigation while taking into account exceptions.",
   "license": "MIT",
   "author": "Baz <baz@thinkloop.com>",
