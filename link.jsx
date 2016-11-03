@@ -8,6 +8,11 @@ module.exports = React.createClass({
 
 	handleClick: function(e) {
 
+		// if a handler was provided, run it
+		if (this.props.onClick) {
+			this.props.onClick(this.props.href);
+		}
+
 		// if target is set (e.g. to "_blank"), let the browser handle it
 		if (this.props.target || (this.props.href && this.props.href.indexOf('mailto:') === 0)) {
 			return;
@@ -20,11 +25,6 @@ module.exports = React.createClass({
 
 		// otherwise intercept the browser
 		e.preventDefault();
-
-		// if a handler was provided, run it
-		if (this.props.onClick) {
-			this.props.onClick(this.props.href);
-		}
 	},
 
 	render: function() {
