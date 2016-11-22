@@ -26,7 +26,9 @@ module.exports = React.createClass({
 		}
 
 		// otherwise intercept the browser
-		e.preventDefault();
+		if (this.props.onClick) {
+			e.preventDefault();
+		}
 	},
 
 	render: function() {

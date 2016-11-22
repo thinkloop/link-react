@@ -23,7 +23,7 @@
   ],
   "main": "link.jsx",
   "scripts": {
-    "publish_to_npm": "clear; echo \"* * * *  PUBLISH  * * * *\"; NODE_ENV=development npm version patch && git push --follow-tags && npm publish"
+    "publish_to_npm": "clear; echo \"* * * *  PUBLISH  * * * *\"; NODE_ENV=development npm version major && git push --follow-tags && npm publish"
   },
   "peerDependencies": {
     "react": ">=15"
